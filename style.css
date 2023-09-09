@@ -329,6 +329,14 @@ footer p {
         position: static;
 
     }
+    footer {
+        border: 1px solid #FFF4E7;
+        border-radius: 8px;
+        background: #FFF4E7;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
 
 /* tablet or medium devices */
@@ -348,7 +356,8 @@ footer p {
     }
 
     .facts-card-container .card {
-        margin: 10px;
+        margin: 5px;
+        
     }
 
     .facts-container .facts-container-description,
@@ -400,5 +409,13 @@ footer p {
         align-items: center;
         margin: 0;
         width: auto;
+    }
+    footer {
+        border: 1px solid #FFF4E7;
+        border-radius: 8px;
+        background: #FFF4E7;
+        margin: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
