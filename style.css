@@ -329,6 +329,10 @@ main {
     nav,
     .teams-container {
         flex-direction: column;
+
+    }
+    .teams-container {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .facts-card-container .card {
@@ -361,13 +365,15 @@ main {
     .feature-card {
         align-items: center;
         justify-content: center;
-        margin: 50px;
+        margin: auto;
+        width: 50%;
     }
 
     .ten-years-badge {
         position: static;
-        width: auto;
-        margin: 0 10%;
+        width: 50%;
+        margin: 0;
+        padding: auto;
     }
 
     .feature-image {
@@ -375,9 +381,12 @@ main {
         align-items: center;
         margin: auto;
         padding: auto;
+        
     }
 
     .feature-image img {
+        align-items: center;
         margin: auto;
+        width: 60%;
     }
 }
