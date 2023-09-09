@@ -417,5 +417,7 @@ footer p {
         margin: 20px;
         margin-top: 20px;
         margin-bottom: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }
