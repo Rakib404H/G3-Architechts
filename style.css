@@ -235,6 +235,17 @@ main {
     margin-top: 50px;
 }
 
+footer {
+    border: 1px solid #FFF4E7;
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin: 130px 240px;
+}
+
+footer p {
+    padding: 40px auto;
+    text-align: center;
+}
 
 
 
@@ -331,6 +342,7 @@ main {
         flex-direction: column;
 
     }
+
     .teams-container {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -381,7 +393,7 @@ main {
         align-items: center;
         margin: auto;
         padding: auto;
-        
+
     }
 
     .feature-image img {
