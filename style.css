@@ -386,7 +386,7 @@ main {
 
     .feature-image img {
         align-items: center;
-        margin: auto;
-        width: 60%;
+        margin: 0;
+        width: auto;
     }
 }
